@@ -1,132 +1,160 @@
-body{
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Poppins', sans-serif;
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ######### Utility Classes applyed ######## */
 
-.wrapping{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 70px;
+h1 {
+  font-size: 60px;
 }
-.faxible-area{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+h2 {
+  font-size: 48px;
 }
-.mission-22{
-    color: #C9717C;
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+  color: #4b4b4c;
+  margin-bottom: 30px;
 }
 
-.button{
-    text-decoration: none;
-    color: white;
-    background-color: tomato;
-    padding: 10px 35px;
-    border-radius: 5px;
+.wrapping {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.faxible-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mission-22 {
+  color: #c9717c;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: tomato;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.half-area {
+  width: 50%;
 }
 
 /* ######### Utility Classes end ######## */
 
-
-
-.left-item{
-    width: 50%;
-}
-.left-item .top-mission{
-    font-family: 'Yeseva One';
-    font-size: 60px;
-    border-left: 4px solid tomato;
-    padding-left: 15px;
+.top-mission {
+  font-family: "Yeseva One";
+  border-left: 4px solid tomato;
+  padding-left: 15px;
+  margin: 0 0 30px 0;
 }
 
-.text-top{
-    margin-bottom: 30px;
-}
-.text-bottom{
-    font: 16px;
-    margin-top: 40px;
+.text-bottom {
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
-.right-item{
-    width: 50%;
+section .man-img .my-pic {
+  margin-left: 150px;
 }
-section .right-item .my-pic{
-    margin-left: 150px;
-}
-
 
 /* my mission section */
 
-.sec-2 h1{
-    font-size: 48px;
-    text-align: center;
+.sec-2 .my-mission {
+  text-align: center;
 }
 
-.mission-vision div{
-    width: 32%;
-    border-radius: 30px;
-    padding: 30px 25px;
-    box-sizing: border-box;
+.mission-vision div {
+  width: 32%;
+  border-radius: 30px;
+  padding: 20px 25px;
+  box-sizing: border-box;
 }
-.mission-vision div img{
-    height: 130px;
+.mission-vision div img {
+  height: 130px;
 }
-.mission-vision div h3{
-    font-size: 24px;
-    margin: 12px 0;
+.mission-vision div .mission-title {
+  margin: 12px 0;
+  font-weight: 600;
 }
-.mission-vision div p{
-    font-size: 16px;
+
+.mission-vision .mission {
+  background-color: #d9d7f1;
 }
-.mission-vision .mission{
-    background-color: #D9D7F1;
+.mission-vision .vision {
+  background-color: #f4dfba;
 }
-.mission-vision .vision{
-    background-color: #F4DFBA;
-}
-.mission-vision .goals{
-    background-color: #E7FBBE;
+.mission-vision .goals {
+  background-color: #e7fbbe;
 }
 
 /* Develop Without Limits */
 
-.service-img{
-    width: 35%;
+.service-img {
+  width: 35%;
 }
-.service-img img{
-    width: 100%;
+.service-img img {
+  width: 100%;
 }
-.service-content{
-    width: 60%;
+.service-content {
+  width: 60%;
 }
-.service-content h2{
-    font-size: 30px;
-    font-weight: 700;
+.service-content h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
-.service-content span{
-    display: block;
+.service-content span {
+  display: block;
 }
 
+/* ###### extra code are add for assignment ###### */
+
+.paypal-font {
+  font-size: 48px;
+  text-align: center;
+}
+.text-color {
+  color: #fec539;
+}
+
+.half-area {
+  width: 50%;
+}
+.pay-paypal {
+  line-height: 55px;
+  margin-bottom: 12px;
+}
+.pay-paypal span {
+  color: #fec539;
+}
 
 /* footer area*/
 
-.footer{
-    height: 170px;
-    margin-top: 100px;
-    padding-top: 50px;
-    background-color: black;
+.footer {
+  height: 170px;
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: black;
 }
 
-.footer h2{
-    color: white;
-    font-family: 'Lobster';
-    text-align: center;
+.footer h3 {
+  color: white;
+  font-family: "Lobster";
+  text-align: center;
 }
-.footer p{
-    font-size: 14px;
-    color: white;
-    text-align: center;
+.footer p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
 }
