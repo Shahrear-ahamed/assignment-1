@@ -6,13 +6,12 @@ font-family: 'Yeseva One', cursive; */
 body{
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
 .wrapping{
     max-width: 1200px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 70px;
 }
@@ -28,9 +27,18 @@ body{
 .top-mission{
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
+    border-left: 4px solid tomato;
+    padding-left: 15px;
 }
 .mission-22{
     color: #C9717C;
+}
+
+.left-item .my-self-top{
+    margin-bottom: 30px;
+}
+.left-item .my-self-bottom{
+    margin-top: 40px;
 }
 
 .left-item a{
@@ -43,7 +51,7 @@ body{
 .right-item{
     width: 50%;
 }
-section .right-item .my-self{
+section .right-item .my-pic{
     margin-left: 150px;
 }
 
@@ -58,11 +66,10 @@ section .right-item .my-self{
     color: #C9717C;
 }
 .sec-2 .mission-vission div{
-    width: 30%;
-    /* height: 400px; */
+    width: 32%;
     border-radius: 30px;
-    /* padding: 30px 40px; */
-    background-color: rgb(236, 255, 127);
+    padding: 30px 25px;
+    box-sizing: border-box;
 }
 .sec-2 .mission-vission div img{
     height: 130px;
@@ -72,4 +79,13 @@ section .right-item .my-self{
 }
 .sec-2 .mission-vission div p{
     font-size: 16px;
+}
+.sec-2 .mission-vission .mission{
+    background-color: #D9D7F1;
+}
+.sec-2 .mission-vission .vission{
+    background-color: #F4DFBA;
+}
+.sec-2 .mission-vission .goals{
+    background-color: #E7FBBE;
 }
