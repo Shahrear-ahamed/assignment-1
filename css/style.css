@@ -105,7 +105,7 @@ section .man-img .my-pic {
     background-repeat: no-repeat;
     background-size: 230px, auto;
     background-position-x: 3%, 100%;
-    background-position-y: 60%, -10%;
+    background-position-y: 60%, 0%;
 }
 
 .service-img {
@@ -133,7 +133,7 @@ section .man-img .my-pic {
     background-repeat: no-repeat;
     background-size: auto, 250px;
     background-position-x: 0, 98%;
-    background-position-y: -10%, 125%;
+    background-position-y: 0%, 100%;
 }
 
 /* ###### extra code are add for assignment ###### */
